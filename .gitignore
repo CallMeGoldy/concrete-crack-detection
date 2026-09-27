@@ -1,0 +1,29 @@
+# --- Dataset (download separately, see data/README.md) ---
+data/*
+!data/README.md
+Concrete_Crack_Images/
+*.zip
+
+# --- Model weights / training artefacts ---
+*.pth
+*.pt
+*.ckpt
+
+# --- Local originals (course templates, raw Colab downloads) ---
+_originals/
+
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- OS / editor junk ---
+.DS_Store
+__MACOSX/
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
